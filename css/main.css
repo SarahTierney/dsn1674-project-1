@@ -14,6 +14,13 @@ h1 {
   color: #b32f52;
   text-align: center;
   margin: 0px;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Sigmar One';
+  color: #b32f52;
+
 }
 
 body {
@@ -30,6 +37,10 @@ nav ol {
   margin: 1em;
 }
 
+nav li {
+  display: inline;
+}
+
 nav a {
   display: inline-block;
   padding: 0.5em;
@@ -39,6 +50,47 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Merriweather';
-  display: inline;
+}
+
+nav a:hover {
+  background-color: #cc3865;
+}
+
+p {
+  font-family: 'Merriweather';
+  margin: 1em;
+}
+
+.quote {
+  color: #b2a215;
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+}
+
+blockquote {
+  font-style: italic;
+  color: #b2a215;
+}
+
+cite {
+  text-align: center;
+  display: block;
+  font-family: 'Merriweather';
+}
+
+figcaption {
+  font-family: 'Merriweather';
+  text-align: center;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+figure {
+  padding: 0.5em;
+  border: 2px solid #b2a215;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #fffce0;
 
 }
