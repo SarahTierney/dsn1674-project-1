@@ -93,6 +93,7 @@ p {
 blockquote {
   font-style: italic;
   color: #b2a215;
+  text-align: center;
 }
 
 blockquote p {
