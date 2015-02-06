@@ -20,7 +20,16 @@ h1 {
 h2 {
   font-family: 'Sigmar One';
   color: #b32f52;
+  font-size: 2rem;
+  border-top: 0.15em solid #ffe524;
+  margin: 0.5em;
+}
 
+h3 {
+  font-family: 'Sigmar One';
+  color: #b32f52;
+  font-size: 1.5rem;
+  margin: 0.75em;
 }
 
 body {
@@ -59,6 +68,18 @@ nav a:hover {
 p {
   font-family: 'Merriweather';
   margin: 1em;
+  font-weight: 300;
+}
+
+.per {
+  font-family: 'Merriweather';
+  margin: 1em;
+  font-style: italic;
+}
+
+.bold {
+  font-family: 'Merriweather';
+  font-weight: 900;
 }
 
 .quote {
@@ -92,5 +113,33 @@ figure {
   border-radius: 10px;
   display: inline-block;
   background-color: #fffce0;
+}
 
+dl {
+  text-align: left;
+  display: block;
+  margin: 1em;
+}
+
+dd {
+  font-family: 'Merriweather';
+  display: block;
+  margin: 0px;
+}
+
+dt {
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+footer {
+  background-color: #ffe524;
+  margin: 0px;
+  text-align: center;
+  padding: 1em;
+}
+
+
+footer a:hover {
+  color: #cc3865;
 }
