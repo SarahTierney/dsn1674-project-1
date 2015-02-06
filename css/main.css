@@ -87,11 +87,16 @@ p {
   text-align: center;
   font-size: 2rem;
   display: block;
+  margin: 0.25em;
 }
 
 blockquote {
   font-style: italic;
   color: #b2a215;
+}
+
+blockquote p {
+  margin: 0.25em;
 }
 
 cite {
