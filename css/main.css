@@ -149,3 +149,7 @@ footer {
 footer a:hover {
   color: #cc3865;
 }
+
+img {
+  width: 100%;
+}
